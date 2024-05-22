@@ -4,41 +4,37 @@ Database Management Systems (DBMS) are software systems designed to manage datab
 
 __1.__ __Hierarchical DBMS__:
 
-__(a)__ Structure: Data is organized in a tree-like structure with a single root and multiple levels of parent-child relationships.
-
+__(a)__ Structure: Data is organized in a tree-like structure with a single root and multiple levels of parent-child relationships.<br>
 __(b)__ Suitable for: Applications with a clear hierarchical relationship, such as organizational charts or file systems.
 Example: IBM Information Management System (IMS).
 
 __2.__ __Network DBMS__:
 
-__(a)__ Structure: Similar to hierarchical DBMS but allows more complex relationships with multiple parent nodes (many-to-many relationships).
+__(a)__ Structure: Similar to hierarchical DBMS but allows more complex relationships with multiple parent nodes (many-to-many relationships).<br>
 __(b)__ Suitable for: Applications with complex relationships such as telecommunications and networking applications.
 Example: Integrated Data Store (IDS).
 
 __3.__ __Relational DBMS (RDBMS)__:
 
-__(a)__ Structure: Data is organized into tables (relations) with rows and columns. Each table can be linked to others using keys.
-
+__(a)__ Structure: Data is organized into tables (relations) with rows and columns. Each table can be linked to others using keys.<br>
 __(b)__ Suitable for: Applications requiring complex queries and transactions, such as business applications, ERP systems, and CRM systems.
 Example: MySQL, PostgreSQL, Oracle Database, Microsoft SQL Server.
 
 __4.__ __Object-oriented DBMS (OODBMS)__:
 
-__(a)__ Structure: Data is stored as objects, similar to object-oriented programming.
-__(a)__ Suitable for: Applications with complex data and relationships, such as CAD/CAM, multimedia, and AI applications.
+__(a)__ Structure: Data is stored as objects, similar to object-oriented programming.<br>
+__(b)__ Suitable for: Applications with complex data and relationships, such as CAD/CAM, multimedia, and AI applications.
 Example: db4o, ObjectDB.
 
 __5.__ __NoSQL DBMS__:
 
-__(a)__ Structure: A broad category encompassing different database models that do not follow the relational model. Includes document stores, key-value stores, wide-column stores, and graph databases.
-
+__(a)__ Structure: A broad category encompassing different database models that do not follow the relational model. Includes document stores, key-value stores, wide-column stores, and graph databases.<br>
 __(b)__ Suitable for: Applications requiring scalability, flexibility, and handling of large volumes of unstructured data, such as social networks, real-time web applications, and big data analytics.
 Example: MongoDB (Document Store), Redis (Key-Value Store), Cassandra (Wide-Column Store), Neo4j (Graph Database).
 
 __6.__ __NewSQL DBMS__:
 
-__(a)__ Structure: Combines the relational model with the scalability of NoSQL databases.
-
+__(a)__ Structure: Combines the relational model with the scalability of NoSQL databases.<br>
 __(a)__ Suitable for: Applications requiring the consistency of RDBMS with the scalability and performance of NoSQL.
 Example: Google Spanner, VoltDB.
 
